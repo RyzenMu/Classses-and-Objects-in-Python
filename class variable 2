@@ -2,6 +2,7 @@
 
 class Bus:
     price = 100
+
     def __init__(self, make, seats, destination):
         self.make = make
         self.seats = seats
